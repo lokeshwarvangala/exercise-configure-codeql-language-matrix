@@ -16,9 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        include:
-          - language: JavaScript
-            build-mode: autobuild
+        language: ["Javascript"]
 
     steps:
       - name: Checkout repository
