@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - language: ["JavaScript"]
+          - language: JavaScript
             build-mode: autobuild
 
     steps:
